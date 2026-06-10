@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fba99ad7-de4d-42f1-86f3-899a19851574" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/TaskTrecker/entities/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/TaskTrecker/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="fba99ad7-de4d-42f1-86f3-899a19851574" name="Changes" comment="added entities">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/TaskTrecker/entities/enums/TaskStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/TaskTrecker/models/TaskDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/TaskTrecker/models/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/TaskTrecker/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/TaskTrecker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/TaskTrecker/TaskTrackerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/TaskTrecker/entities/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/TaskTrecker/entities/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +28,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -57,7 +65,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "entities",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Arturio/IdeaProjects/TaskTrecker/src/main/java/org/example/Main.java",
@@ -68,6 +76,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Arturio\IdeaProjects\TaskTrecker" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -84,11 +97,24 @@
       <option name="presentableId" value="Default" />
       <updated>1780602059177</updated>
       <workItem from="1780602060200" duration="2610000" />
-      <workItem from="1780706506647" duration="2068000" />
+      <workItem from="1780706506647" duration="7844000" />
     </task>
+    <task id="LOCAL-00001" summary="added entities">
+      <option name="closed" value="true" />
+      <created>1780708792349</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1780708792349</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added entities" />
+    <option name="LAST_COMMIT_MESSAGE" value="added entities" />
   </component>
 </project>

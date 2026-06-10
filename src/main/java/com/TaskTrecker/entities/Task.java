@@ -3,6 +3,7 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import com.TaskTrecker.entities.enums.TaskStatus;
 
 @Entity
 @Table(name = "tasks")
@@ -17,7 +18,7 @@ public class Task {
 
     private String title;
     private String description;
-    private boolean completed;
+    private TaskStatus status;
 
     @ManyToOne
     @JoinColumn(name = "user_id")
@@ -27,7 +28,7 @@ public class Task {
     public Task(String title, String description) {
         this.title = title;
         this.description = description;
-        this.completed = false;
+        this.status = TaskStatus.TODO;
     }
 
 }
